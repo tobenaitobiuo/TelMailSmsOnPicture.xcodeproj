@@ -1,0 +1,642 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7E2FC83A1BDD70E40040250C /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC8391BDD70E40040250C /* ThirdViewController.swift */; };
+		7E2FC84A1BDDBB890040250C /* IMG_0496.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC8491BDDBB890040250C /* IMG_0496.JPG */; };
+		7E2FC84C1BDDBC050040250C /* IMG_0498.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC84B1BDDBC050040250C /* IMG_0498.JPG */; };
+		7E2FC8521BDDBD3F0040250C /* IMG_0439.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC8511BDDBD3F0040250C /* IMG_0439.JPG */; };
+		7E2FC8541BDDBD5C0040250C /* IMG_0495.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC8531BDDBD5C0040250C /* IMG_0495.JPG */; };
+		7E2FC8571BDDBD7C0040250C /* IMG_0428.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC8551BDDBD7C0040250C /* IMG_0428.JPG */; };
+		7E2FC8581BDDBD7C0040250C /* IMG_0429.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC8561BDDBD7C0040250C /* IMG_0429.JPG */; };
+		7E2FC85D1BDDBE0F0040250C /* IMG_0435.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC8591BDDBE0F0040250C /* IMG_0435.JPG */; };
+		7E2FC85E1BDDBE0F0040250C /* IMG_0444.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC85A1BDDBE0F0040250C /* IMG_0444.JPG */; };
+		7E2FC85F1BDDBE0F0040250C /* IMG_0445.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC85B1BDDBE0F0040250C /* IMG_0445.JPG */; };
+		7E2FC8601BDDBE0F0040250C /* IMG_0446.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E2FC85C1BDDBE0F0040250C /* IMG_0446.JPG */; };
+		7E2FC8641BE53F750040250C /* USDocument.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E2FC8631BE53F750040250C /* USDocument.swift */; };
+		7E7C77FB1BD7248600AF69AA /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7C77FA1BD7248600AF69AA /* SecondViewController.swift */; };
+		7E7E54E81BCF35ED009B0653 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E54E71BCF35ED009B0653 /* AppDelegate.swift */; };
+		7E7E54EA1BCF35ED009B0653 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E54E91BCF35ED009B0653 /* ViewController.swift */; };
+		7E7E54ED1BCF35ED009B0653 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E54EB1BCF35ED009B0653 /* Main.storyboard */; };
+		7E7E54F21BCF35ED009B0653 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E54F01BCF35ED009B0653 /* LaunchScreen.storyboard */; };
+		7E7E54FD1BCF35ED009B0653 /* TelMailSmsOnPictureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E54FC1BCF35ED009B0653 /* TelMailSmsOnPictureTests.swift */; };
+		7E7E55081BCF35ED009B0653 /* TelMailSmsOnPictureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E7E55071BCF35ED009B0653 /* TelMailSmsOnPictureUITests.swift */; };
+		7E7E55161BCF366C009B0653 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7E55151BCF366C009B0653 /* AssetsLibrary.framework */; };
+		7E7E55181BCF3685009B0653 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7E55171BCF3685009B0653 /* MapKit.framework */; };
+		7E7E551A1BCF369B009B0653 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7E55191BCF369B009B0653 /* MessageUI.framework */; };
+		7E7E551C1BCF36BA009B0653 /* Photos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E7E551B1BCF36BA009B0653 /* Photos.framework */; };
+		7E7E551E1BCF5BD8009B0653 /* IMG_0126.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E551D1BCF5BD8009B0653 /* IMG_0126.JPG */; };
+		7E7E55201BCF5BF3009B0653 /* IMG_0424.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E551F1BCF5BF3009B0653 /* IMG_0424.JPG */; };
+		7E7E55221BCF5C0A009B0653 /* IMG_0494.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E55211BCF5C0A009B0653 /* IMG_0494.JPG */; };
+		7E7E55241BCF5C52009B0653 /* IMG_0481.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E55231BCF5C52009B0653 /* IMG_0481.JPG */; };
+		7E7E55261BCF5C7B009B0653 /* IMG_0082.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E55251BCF5C7B009B0653 /* IMG_0082.JPG */; };
+		7E7E55281BCF5C91009B0653 /* IMG_0520.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E55271BCF5C91009B0653 /* IMG_0520.JPG */; };
+		7E7E552A1BCF5CA5009B0653 /* IMG_0124.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E55291BCF5CA5009B0653 /* IMG_0124.JPG */; };
+		7E7E552C1BCF5CBE009B0653 /* IMG_0214.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E552B1BCF5CBE009B0653 /* IMG_0214.JPG */; };
+		7E7E552E1BCF5D46009B0653 /* IMG_0033.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E552D1BCF5D46009B0653 /* IMG_0033.JPG */; };
+		7E7E55301BCF5E28009B0653 /* IMG_0478.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E552F1BCF5E28009B0653 /* IMG_0478.JPG */; };
+		7E7E55321BCFC091009B0653 /* IMG_0534.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E55311BCFC091009B0653 /* IMG_0534.JPG */; };
+		7E7E55341BCFC0A2009B0653 /* IMG_0535.JPG in Resources */ = {isa = PBXBuildFile; fileRef = 7E7E55331BCFC0A2009B0653 /* IMG_0535.JPG */; };
+		7E8AAFA21BD19695000CDA7E /* Contacts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8AAFA01BD19695000CDA7E /* Contacts.framework */; };
+		7E8AAFA31BD19695000CDA7E /* ContactsUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7E8AAFA11BD19695000CDA7E /* ContactsUI.framework */; };
+		7EED747B1BFACAE600AA6A0C /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EED747A1BFACAE600AA6A0C /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7E7E54F91BCF35ED009B0653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7E54DC1BCF35ED009B0653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7E54E31BCF35ED009B0653;
+			remoteInfo = TelMailSmsOnPicture;
+		};
+		7E7E55041BCF35ED009B0653 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7E7E54DC1BCF35ED009B0653 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7E7E54E31BCF35ED009B0653;
+			remoteInfo = TelMailSmsOnPicture;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7E2FC8391BDD70E40040250C /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		7E2FC8491BDDBB890040250C /* IMG_0496.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0496.JPG; sourceTree = "<group>"; };
+		7E2FC84B1BDDBC050040250C /* IMG_0498.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0498.JPG; sourceTree = "<group>"; };
+		7E2FC8511BDDBD3F0040250C /* IMG_0439.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0439.JPG; sourceTree = "<group>"; };
+		7E2FC8531BDDBD5C0040250C /* IMG_0495.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0495.JPG; sourceTree = "<group>"; };
+		7E2FC8551BDDBD7C0040250C /* IMG_0428.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0428.JPG; sourceTree = "<group>"; };
+		7E2FC8561BDDBD7C0040250C /* IMG_0429.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0429.JPG; sourceTree = "<group>"; };
+		7E2FC8591BDDBE0F0040250C /* IMG_0435.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0435.JPG; sourceTree = "<group>"; };
+		7E2FC85A1BDDBE0F0040250C /* IMG_0444.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0444.JPG; sourceTree = "<group>"; };
+		7E2FC85B1BDDBE0F0040250C /* IMG_0445.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0445.JPG; sourceTree = "<group>"; };
+		7E2FC85C1BDDBE0F0040250C /* IMG_0446.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0446.JPG; sourceTree = "<group>"; };
+		7E2FC8631BE53F750040250C /* USDocument.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = USDocument.swift; path = ../USDocument.swift; sourceTree = "<group>"; };
+		7E7C77FA1BD7248600AF69AA /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		7E7E54E41BCF35ED009B0653 /* TelMailSmsOnPicture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TelMailSmsOnPicture.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7E54E71BCF35ED009B0653 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7E7E54E91BCF35ED009B0653 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7E7E54EC1BCF35ED009B0653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7E7E54F11BCF35ED009B0653 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7E7E54F31BCF35ED009B0653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7E54F81BCF35ED009B0653 /* TelMailSmsOnPictureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelMailSmsOnPictureTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7E54FC1BCF35ED009B0653 /* TelMailSmsOnPictureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelMailSmsOnPictureTests.swift; sourceTree = "<group>"; };
+		7E7E54FE1BCF35ED009B0653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7E55031BCF35ED009B0653 /* TelMailSmsOnPictureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TelMailSmsOnPictureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7E7E55071BCF35ED009B0653 /* TelMailSmsOnPictureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TelMailSmsOnPictureUITests.swift; sourceTree = "<group>"; };
+		7E7E55091BCF35ED009B0653 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7E7E55151BCF366C009B0653 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		7E7E55171BCF3685009B0653 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		7E7E55191BCF369B009B0653 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		7E7E551B1BCF36BA009B0653 /* Photos.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Photos.framework; path = System/Library/Frameworks/Photos.framework; sourceTree = SDKROOT; };
+		7E7E551D1BCF5BD8009B0653 /* IMG_0126.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0126.JPG; sourceTree = "<group>"; };
+		7E7E551F1BCF5BF3009B0653 /* IMG_0424.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0424.JPG; sourceTree = "<group>"; };
+		7E7E55211BCF5C0A009B0653 /* IMG_0494.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0494.JPG; sourceTree = "<group>"; };
+		7E7E55231BCF5C52009B0653 /* IMG_0481.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0481.JPG; sourceTree = "<group>"; };
+		7E7E55251BCF5C7B009B0653 /* IMG_0082.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0082.JPG; sourceTree = "<group>"; };
+		7E7E55271BCF5C91009B0653 /* IMG_0520.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0520.JPG; sourceTree = "<group>"; };
+		7E7E55291BCF5CA5009B0653 /* IMG_0124.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0124.JPG; sourceTree = "<group>"; };
+		7E7E552B1BCF5CBE009B0653 /* IMG_0214.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0214.JPG; sourceTree = "<group>"; };
+		7E7E552D1BCF5D46009B0653 /* IMG_0033.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0033.JPG; sourceTree = "<group>"; };
+		7E7E552F1BCF5E28009B0653 /* IMG_0478.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0478.JPG; sourceTree = "<group>"; };
+		7E7E55311BCFC091009B0653 /* IMG_0534.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0534.JPG; sourceTree = "<group>"; };
+		7E7E55331BCFC0A2009B0653 /* IMG_0535.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = IMG_0535.JPG; sourceTree = "<group>"; };
+		7E8AAFA01BD19695000CDA7E /* Contacts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Contacts.framework; path = System/Library/Frameworks/Contacts.framework; sourceTree = SDKROOT; };
+		7E8AAFA11BD19695000CDA7E /* ContactsUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ContactsUI.framework; path = System/Library/Frameworks/ContactsUI.framework; sourceTree = SDKROOT; };
+		7EED747A1BFACAE600AA6A0C /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7E7E54E11BCF35ED009B0653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7EED747B1BFACAE600AA6A0C /* CoreLocation.framework in Frameworks */,
+				7E8AAFA21BD19695000CDA7E /* Contacts.framework in Frameworks */,
+				7E8AAFA31BD19695000CDA7E /* ContactsUI.framework in Frameworks */,
+				7E7E551C1BCF36BA009B0653 /* Photos.framework in Frameworks */,
+				7E7E551A1BCF369B009B0653 /* MessageUI.framework in Frameworks */,
+				7E7E55181BCF3685009B0653 /* MapKit.framework in Frameworks */,
+				7E7E55161BCF366C009B0653 /* AssetsLibrary.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7E54F51BCF35ED009B0653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7E55001BCF35ED009B0653 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7E7E54DB1BCF35ED009B0653 = {
+			isa = PBXGroup;
+			children = (
+				7EED747A1BFACAE600AA6A0C /* CoreLocation.framework */,
+				7E8AAFA01BD19695000CDA7E /* Contacts.framework */,
+				7E8AAFA11BD19695000CDA7E /* ContactsUI.framework */,
+				7E7E551B1BCF36BA009B0653 /* Photos.framework */,
+				7E7E55191BCF369B009B0653 /* MessageUI.framework */,
+				7E7E55171BCF3685009B0653 /* MapKit.framework */,
+				7E7E55151BCF366C009B0653 /* AssetsLibrary.framework */,
+				7E7E54E61BCF35ED009B0653 /* TelMailSmsOnPicture */,
+				7E7E54FB1BCF35ED009B0653 /* TelMailSmsOnPictureTests */,
+				7E7E55061BCF35ED009B0653 /* TelMailSmsOnPictureUITests */,
+				7E7E54E51BCF35ED009B0653 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7E7E54E51BCF35ED009B0653 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7E7E54E41BCF35ED009B0653 /* TelMailSmsOnPicture.app */,
+				7E7E54F81BCF35ED009B0653 /* TelMailSmsOnPictureTests.xctest */,
+				7E7E55031BCF35ED009B0653 /* TelMailSmsOnPictureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7E7E54E61BCF35ED009B0653 /* TelMailSmsOnPicture */ = {
+			isa = PBXGroup;
+			children = (
+				7E7E54E71BCF35ED009B0653 /* AppDelegate.swift */,
+				7E7E54E91BCF35ED009B0653 /* ViewController.swift */,
+				7E2FC8631BE53F750040250C /* USDocument.swift */,
+				7E7E54EB1BCF35ED009B0653 /* Main.storyboard */,
+				7E2FC8591BDDBE0F0040250C /* IMG_0435.JPG */,
+				7E2FC85A1BDDBE0F0040250C /* IMG_0444.JPG */,
+				7E2FC85B1BDDBE0F0040250C /* IMG_0445.JPG */,
+				7E2FC85C1BDDBE0F0040250C /* IMG_0446.JPG */,
+				7E2FC8551BDDBD7C0040250C /* IMG_0428.JPG */,
+				7E2FC8561BDDBD7C0040250C /* IMG_0429.JPG */,
+				7E2FC8531BDDBD5C0040250C /* IMG_0495.JPG */,
+				7E2FC8511BDDBD3F0040250C /* IMG_0439.JPG */,
+				7E2FC8491BDDBB890040250C /* IMG_0496.JPG */,
+				7E2FC8391BDD70E40040250C /* ThirdViewController.swift */,
+				7E2FC84B1BDDBC050040250C /* IMG_0498.JPG */,
+				7E7C77FA1BD7248600AF69AA /* SecondViewController.swift */,
+				7E7E55331BCFC0A2009B0653 /* IMG_0535.JPG */,
+				7E7E55311BCFC091009B0653 /* IMG_0534.JPG */,
+				7E7E552F1BCF5E28009B0653 /* IMG_0478.JPG */,
+				7E7E552D1BCF5D46009B0653 /* IMG_0033.JPG */,
+				7E7E55231BCF5C52009B0653 /* IMG_0481.JPG */,
+				7E7E552B1BCF5CBE009B0653 /* IMG_0214.JPG */,
+				7E7E55291BCF5CA5009B0653 /* IMG_0124.JPG */,
+				7E7E55271BCF5C91009B0653 /* IMG_0520.JPG */,
+				7E7E55251BCF5C7B009B0653 /* IMG_0082.JPG */,
+				7E7E55211BCF5C0A009B0653 /* IMG_0494.JPG */,
+				7E7E551F1BCF5BF3009B0653 /* IMG_0424.JPG */,
+				7E7E551D1BCF5BD8009B0653 /* IMG_0126.JPG */,
+				7E7E54F01BCF35ED009B0653 /* LaunchScreen.storyboard */,
+				7E7E54F31BCF35ED009B0653 /* Info.plist */,
+			);
+			path = TelMailSmsOnPicture;
+			sourceTree = "<group>";
+		};
+		7E7E54FB1BCF35ED009B0653 /* TelMailSmsOnPictureTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7E54FC1BCF35ED009B0653 /* TelMailSmsOnPictureTests.swift */,
+				7E7E54FE1BCF35ED009B0653 /* Info.plist */,
+			);
+			path = TelMailSmsOnPictureTests;
+			sourceTree = "<group>";
+		};
+		7E7E55061BCF35ED009B0653 /* TelMailSmsOnPictureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7E7E55071BCF35ED009B0653 /* TelMailSmsOnPictureUITests.swift */,
+				7E7E55091BCF35ED009B0653 /* Info.plist */,
+			);
+			path = TelMailSmsOnPictureUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7E7E54E31BCF35ED009B0653 /* TelMailSmsOnPicture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7E550C1BCF35ED009B0653 /* Build configuration list for PBXNativeTarget "TelMailSmsOnPicture" */;
+			buildPhases = (
+				7E7E54E01BCF35ED009B0653 /* Sources */,
+				7E7E54E11BCF35ED009B0653 /* Frameworks */,
+				7E7E54E21BCF35ED009B0653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TelMailSmsOnPicture;
+			productName = TelMailSmsOnPicture;
+			productReference = 7E7E54E41BCF35ED009B0653 /* TelMailSmsOnPicture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7E7E54F71BCF35ED009B0653 /* TelMailSmsOnPictureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7E550F1BCF35ED009B0653 /* Build configuration list for PBXNativeTarget "TelMailSmsOnPictureTests" */;
+			buildPhases = (
+				7E7E54F41BCF35ED009B0653 /* Sources */,
+				7E7E54F51BCF35ED009B0653 /* Frameworks */,
+				7E7E54F61BCF35ED009B0653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7E54FA1BCF35ED009B0653 /* PBXTargetDependency */,
+			);
+			name = TelMailSmsOnPictureTests;
+			productName = TelMailSmsOnPictureTests;
+			productReference = 7E7E54F81BCF35ED009B0653 /* TelMailSmsOnPictureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7E7E55021BCF35ED009B0653 /* TelMailSmsOnPictureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7E7E55121BCF35ED009B0653 /* Build configuration list for PBXNativeTarget "TelMailSmsOnPictureUITests" */;
+			buildPhases = (
+				7E7E54FF1BCF35ED009B0653 /* Sources */,
+				7E7E55001BCF35ED009B0653 /* Frameworks */,
+				7E7E55011BCF35ED009B0653 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7E7E55051BCF35ED009B0653 /* PBXTargetDependency */,
+			);
+			name = TelMailSmsOnPictureUITests;
+			productName = TelMailSmsOnPictureUITests;
+			productReference = 7E7E55031BCF35ED009B0653 /* TelMailSmsOnPictureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7E7E54DC1BCF35ED009B0653 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Endou_kouiti;
+				TargetAttributes = {
+					7E7E54E31BCF35ED009B0653 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 27N2CR5FAG;
+					};
+					7E7E54F71BCF35ED009B0653 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 27N2CR5FAG;
+						TestTargetID = 7E7E54E31BCF35ED009B0653;
+					};
+					7E7E55021BCF35ED009B0653 = {
+						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = 27N2CR5FAG;
+						TestTargetID = 7E7E54E31BCF35ED009B0653;
+					};
+				};
+			};
+			buildConfigurationList = 7E7E54DF1BCF35ED009B0653 /* Build configuration list for PBXProject "TelMailSmsOnPicture" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7E7E54DB1BCF35ED009B0653;
+			productRefGroup = 7E7E54E51BCF35ED009B0653 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7E7E54E31BCF35ED009B0653 /* TelMailSmsOnPicture */,
+				7E7E54F71BCF35ED009B0653 /* TelMailSmsOnPictureTests */,
+				7E7E55021BCF35ED009B0653 /* TelMailSmsOnPictureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7E7E54E21BCF35ED009B0653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7E55281BCF5C91009B0653 /* IMG_0520.JPG in Resources */,
+				7E7E55341BCFC0A2009B0653 /* IMG_0535.JPG in Resources */,
+				7E7E55241BCF5C52009B0653 /* IMG_0481.JPG in Resources */,
+				7E7E55261BCF5C7B009B0653 /* IMG_0082.JPG in Resources */,
+				7E7E55221BCF5C0A009B0653 /* IMG_0494.JPG in Resources */,
+				7E2FC85E1BDDBE0F0040250C /* IMG_0444.JPG in Resources */,
+				7E7E55301BCF5E28009B0653 /* IMG_0478.JPG in Resources */,
+				7E7E55321BCFC091009B0653 /* IMG_0534.JPG in Resources */,
+				7E7E551E1BCF5BD8009B0653 /* IMG_0126.JPG in Resources */,
+				7E7E55201BCF5BF3009B0653 /* IMG_0424.JPG in Resources */,
+				7E2FC8521BDDBD3F0040250C /* IMG_0439.JPG in Resources */,
+				7E2FC84C1BDDBC050040250C /* IMG_0498.JPG in Resources */,
+				7E2FC85F1BDDBE0F0040250C /* IMG_0445.JPG in Resources */,
+				7E7E54F21BCF35ED009B0653 /* LaunchScreen.storyboard in Resources */,
+				7E2FC84A1BDDBB890040250C /* IMG_0496.JPG in Resources */,
+				7E2FC8571BDDBD7C0040250C /* IMG_0428.JPG in Resources */,
+				7E7E552A1BCF5CA5009B0653 /* IMG_0124.JPG in Resources */,
+				7E7E552E1BCF5D46009B0653 /* IMG_0033.JPG in Resources */,
+				7E2FC8541BDDBD5C0040250C /* IMG_0495.JPG in Resources */,
+				7E2FC8581BDDBD7C0040250C /* IMG_0429.JPG in Resources */,
+				7E2FC85D1BDDBE0F0040250C /* IMG_0435.JPG in Resources */,
+				7E7E552C1BCF5CBE009B0653 /* IMG_0214.JPG in Resources */,
+				7E2FC8601BDDBE0F0040250C /* IMG_0446.JPG in Resources */,
+				7E7E54ED1BCF35ED009B0653 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7E54F61BCF35ED009B0653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7E55011BCF35ED009B0653 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7E7E54E01BCF35ED009B0653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7C77FB1BD7248600AF69AA /* SecondViewController.swift in Sources */,
+				7E7E54EA1BCF35ED009B0653 /* ViewController.swift in Sources */,
+				7E2FC83A1BDD70E40040250C /* ThirdViewController.swift in Sources */,
+				7E7E54E81BCF35ED009B0653 /* AppDelegate.swift in Sources */,
+				7E2FC8641BE53F750040250C /* USDocument.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7E54F41BCF35ED009B0653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7E54FD1BCF35ED009B0653 /* TelMailSmsOnPictureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7E7E54FF1BCF35ED009B0653 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E7E55081BCF35ED009B0653 /* TelMailSmsOnPictureUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7E7E54FA1BCF35ED009B0653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7E54E31BCF35ED009B0653 /* TelMailSmsOnPicture */;
+			targetProxy = 7E7E54F91BCF35ED009B0653 /* PBXContainerItemProxy */;
+		};
+		7E7E55051BCF35ED009B0653 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7E7E54E31BCF35ED009B0653 /* TelMailSmsOnPicture */;
+			targetProxy = 7E7E55041BCF35ED009B0653 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7E7E54EB1BCF35ED009B0653 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7E54EC1BCF35ED009B0653 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7E7E54F01BCF35ED009B0653 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7E7E54F11BCF35ED009B0653 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7E7E550A1BCF35ED009B0653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		7E7E550B1BCF35ED009B0653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7E7E550D1BCF35ED009B0653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TelMailSmsOnPicture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "My-House.TelMailSmsOnPicture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		7E7E550E1BCF35ED009B0653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = TelMailSmsOnPicture/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "My-House.TelMailSmsOnPicture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		7E7E55101BCF35ED009B0653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TelMailSmsOnPictureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "My-House.TelMailSmsOnPictureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelMailSmsOnPicture.app/TelMailSmsOnPicture";
+			};
+			name = Debug;
+		};
+		7E7E55111BCF35ED009B0653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TelMailSmsOnPictureTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "My-House.TelMailSmsOnPictureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TelMailSmsOnPicture.app/TelMailSmsOnPicture";
+			};
+			name = Release;
+		};
+		7E7E55131BCF35ED009B0653 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TelMailSmsOnPictureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "My-House.TelMailSmsOnPictureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TelMailSmsOnPicture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		7E7E55141BCF35ED009B0653 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TelMailSmsOnPictureUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "My-House.TelMailSmsOnPictureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TelMailSmsOnPicture;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7E7E54DF1BCF35ED009B0653 /* Build configuration list for PBXProject "TelMailSmsOnPicture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7E550A1BCF35ED009B0653 /* Debug */,
+				7E7E550B1BCF35ED009B0653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7E550C1BCF35ED009B0653 /* Build configuration list for PBXNativeTarget "TelMailSmsOnPicture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7E550D1BCF35ED009B0653 /* Debug */,
+				7E7E550E1BCF35ED009B0653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7E550F1BCF35ED009B0653 /* Build configuration list for PBXNativeTarget "TelMailSmsOnPictureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7E55101BCF35ED009B0653 /* Debug */,
+				7E7E55111BCF35ED009B0653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7E7E55121BCF35ED009B0653 /* Build configuration list for PBXNativeTarget "TelMailSmsOnPictureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7E7E55131BCF35ED009B0653 /* Debug */,
+				7E7E55141BCF35ED009B0653 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7E7E54DC1BCF35ED009B0653 /* Project object */;
+}
